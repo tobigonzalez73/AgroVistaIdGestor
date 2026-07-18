@@ -5,18 +5,6 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 import { getFunctions } from 'firebase/functions';
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-/* const firebaseConfig = {
-    apiKey: "AIzaSyA8O822G8v4LlsSZq3wR3Qjj6zj-D_uA9c",
-    authDomain: "agrovista-id.firebaseapp.com",
-    projectId: "agrovista-id",
-    storageBucket: "agrovista-id.firebasestorage.app",
-     messagingSenderId: "945770628537",
-     appId: "1:945770628537:web:7485fc8f6471b67f0f2268",
-    measurementId: "G-XSBBRVQEYY"
-}; */
-
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
