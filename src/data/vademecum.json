@@ -1,0 +1,488 @@
+[
+    {
+        "name": "Roundup Controlmax",
+        "brand": "Bayer",
+        "activeIngredient": "Glifosato (Sal Amoníaco)",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "1.5 kg/ha"
+    },
+    {
+        "name": "Roundup Full II",
+        "brand": "Bayer",
+        "activeIngredient": "Glifosato (Sal Potásica)",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "2.5 L/ha"
+    },
+    {
+        "name": "Adengo",
+        "brand": "Bayer",
+        "activeIngredient": "Thiencarbazone + Isoxaflutole",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.35 L/ha"
+    },
+    {
+        "name": "Belt",
+        "brand": "Bayer",
+        "activeIngredient": "Flubendiamide",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.07 L/ha"
+    },
+    {
+        "name": "Decis Forte",
+        "brand": "Bayer",
+        "activeIngredient": "Deltametrina",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.05 L/ha"
+    },
+    {
+        "name": "Cripton",
+        "brand": "Bayer",
+        "activeIngredient": "Trifloxistrobina + Protioconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.4 L/ha"
+    },
+    {
+        "name": "Cripton Xtra",
+        "brand": "Bayer",
+        "activeIngredient": "Trifloxistrobina + Protioconazole + Bixafen",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.5 L/ha"
+    },
+    {
+        "name": "Solomon",
+        "brand": "Bayer",
+        "activeIngredient": "Betaciflutrina + Imidacloprid",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.2 L/ha"
+    },
+    {
+        "name": "Percutor",
+        "brand": "Bayer",
+        "activeIngredient": "Iodosulfuron + Thiencarbazone",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.045 kg/ha"
+    },
+    {
+        "name": "Hussar Stack",
+        "brand": "Bayer",
+        "activeIngredient": "Iodosulfuron + Fenoxaprop",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.8 L/ha"
+    },
+    {
+        "name": "Coragen",
+        "brand": "FMC",
+        "activeIngredient": "Rynaxypyr (Clorantraniliprol)",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.05 L/ha"
+    },
+    {
+        "name": "Afforia",
+        "brand": "FMC",
+        "activeIngredient": "Flumioxazin + Thifensulfuron",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.15 kg/ha"
+    },
+    {
+        "name": "Capaz XL",
+        "brand": "FMC",
+        "activeIngredient": "Sulfentrazone + Clorimuron",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.5 kg/ha"
+    },
+    {
+        "name": "Priori Xtra",
+        "brand": "Syngenta",
+        "activeIngredient": "Azoxistrobina + Ciproconazol",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Miravis Duo",
+        "brand": "Syngenta",
+        "activeIngredient": "Adepidyn + Difenoconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.8 L/ha"
+    },
+    {
+        "name": "Miravis Triple",
+        "brand": "Syngenta",
+        "activeIngredient": "Adepidyn + Azoxistrobina + Difenoconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.35 L/ha"
+    },
+    {
+        "name": "Dual Gold",
+        "brand": "Syngenta",
+        "activeIngredient": "S-Metolaclor",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "1.2 L/ha"
+    },
+    {
+        "name": "Acuron Uno",
+        "brand": "Syngenta",
+        "activeIngredient": "Biciclopirona",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.8 L/ha"
+    },
+    {
+        "name": "Acuron Pack",
+        "brand": "Syngenta",
+        "activeIngredient": "Biciclopirona + S-Metolaclor + Atrazina",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "3.5 L/ha"
+    },
+    {
+        "name": "Eddus",
+        "brand": "Syngenta",
+        "activeIngredient": "Fomesafen + S-Metolaclor",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "1.5 L/ha"
+    },
+    {
+        "name": "Virantra",
+        "brand": "Syngenta",
+        "activeIngredient": "Cyclaniliprole (PLINAZOLIN)",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Adion",
+        "brand": "Syngenta",
+        "activeIngredient": "PLINAZOLIN technology",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.05 L/ha"
+    },
+    {
+        "name": "Ampligo",
+        "brand": "Syngenta",
+        "activeIngredient": "Clorantraniliprol + Lambdacihalotrina",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.1 L/ha"
+    },
+    {
+        "name": "Minecto Pro",
+        "brand": "Syngenta",
+        "activeIngredient": "Cyantraniliprol + Abamectina",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.4 L/ha"
+    },
+    {
+        "name": "Zidua",
+        "brand": "BASF",
+        "activeIngredient": "Pyroxasulfone",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.21 kg/ha"
+    },
+    {
+        "name": "Zidua Pack",
+        "brand": "BASF",
+        "activeIngredient": "Pyroxasulfone + Saflufenacil",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.15 kg/ha"
+    },
+    {
+        "name": "Heat",
+        "brand": "BASF",
+        "activeIngredient": "Saflufenacil",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.035 kg/ha"
+    },
+    {
+        "name": "Sercadis",
+        "brand": "BASF",
+        "activeIngredient": "Fluxapyroxad",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Abacus Advance",
+        "brand": "BASF",
+        "activeIngredient": "Pyraclostrobin + Epoxiconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.75 L/ha"
+    },
+    {
+        "name": "Opera Auto",
+        "brand": "BASF",
+        "activeIngredient": "Pyraclostrobin + Epoxiconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.75 L/ha"
+    },
+    {
+        "name": "Aureo",
+        "brand": "BASF",
+        "activeIngredient": "Aceite Vegetal Metilado",
+        "family": "Coadyuvante",
+        "unit": "L",
+        "vat": 21,
+        "defaultDose": "0.5 L/ha"
+    },
+    {
+        "name": "Enlist Colex-D",
+        "brand": "Corteva",
+        "activeIngredient": "2,4-D Sal Colina",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "2.0 L/ha"
+    },
+    {
+        "name": "Galant HL",
+        "brand": "Corteva",
+        "activeIngredient": "Haloxifop-P-Metil",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Spider",
+        "brand": "Corteva",
+        "activeIngredient": "Diclosulam",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.03 kg/ha"
+    },
+    {
+        "name": "Texaro",
+        "brand": "Corteva",
+        "activeIngredient": "Arylex + Diclosulam",
+        "family": "Herbicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.04 kg/ha"
+    },
+    {
+        "name": "Pixxaro",
+        "brand": "Corteva",
+        "activeIngredient": "Arylex + Fluroxipir",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.45 L/ha"
+    },
+    {
+        "name": "Quintal Xtra",
+        "brand": "Corteva",
+        "activeIngredient": "Spinetoram + Metoxifenocide",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.2 L/ha"
+    },
+    {
+        "name": "Expedition",
+        "brand": "Corteva",
+        "activeIngredient": "Sulfoxaflor + Lambdacihalotrina",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.25 L/ha"
+    },
+    {
+        "name": "Strimmer",
+        "brand": "UPL",
+        "activeIngredient": "Glufosinato de Amonio",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "2.5 L/ha"
+    },
+    {
+        "name": "Tridium",
+        "brand": "UPL",
+        "activeIngredient": "Azoxistrobina + Mancozeb + Flutriafol",
+        "family": "Fungicida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "2.0 kg/ha"
+    },
+    {
+        "name": "Sperto",
+        "brand": "UPL",
+        "activeIngredient": "Acetamiprid + Bifentrin",
+        "family": "Insecticida",
+        "unit": "kg",
+        "vat": 10.5,
+        "defaultDose": "0.2 kg/ha"
+    },
+    {
+        "name": "Concurrence",
+        "brand": "Summit Agro",
+        "activeIngredient": "Flumioxazin",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.15 L/ha"
+    },
+    {
+        "name": "Fierce",
+        "brand": "Summit Agro",
+        "activeIngredient": "Flumioxazin + Pyroxasulfone",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.5 L/ha"
+    },
+    {
+        "name": "Yamato",
+        "brand": "Summit Agro",
+        "activeIngredient": "Pyroxasulfone",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.15 L/ha"
+    },
+    {
+        "name": "Rizospray Extremo",
+        "brand": "Rizobacter",
+        "activeIngredient": "Aceite Vegetal Metilado + Organosiliconas",
+        "family": "Coadyuvante",
+        "unit": "L",
+        "vat": 21,
+        "defaultDose": "0.2 L/ha"
+    },
+    {
+        "name": "Silwet L-77",
+        "brand": "Momentive",
+        "activeIngredient": "Organosilicona",
+        "family": "Coadyuvante",
+        "unit": "L",
+        "vat": 21,
+        "defaultDose": "0.05 L/100L"
+    },
+    {
+        "name": "Liberty",
+        "brand": "BASF",
+        "activeIngredient": "Glufosinato de Amonio",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "2.5 L/ha"
+    },
+    {
+        "name": "Banvel",
+        "brand": "Syngenta",
+        "activeIngredient": "Dicamba",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.2 L/ha"
+    },
+    {
+        "name": "Starane Xtra",
+        "brand": "Corteva",
+        "activeIngredient": "Fluroxipir",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.6 L/ha"
+    },
+    {
+        "name": "Lontrel",
+        "brand": "Corteva",
+        "activeIngredient": "Clopiralid",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Preside",
+        "brand": "Corteva",
+        "activeIngredient": "Flumetsulam",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.4 L/ha"
+    },
+    {
+        "name": "Puchero",
+        "brand": "Adama",
+        "activeIngredient": "Imazetapir",
+        "family": "Herbicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "1.0 L/ha"
+    },
+    {
+        "name": "Galil",
+        "brand": "Adama",
+        "activeIngredient": "Imidacloprid + Bifentrin",
+        "family": "Insecticida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.3 L/ha"
+    },
+    {
+        "name": "Azimut",
+        "brand": "Adama",
+        "activeIngredient": "Azoxistrobina + Tebuconazole",
+        "family": "Fungicida",
+        "unit": "L",
+        "vat": 10.5,
+        "defaultDose": "0.5 L/ha"
+    }
+]
