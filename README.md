@@ -21,25 +21,7 @@
 
 ## ⚙️ Primeros Pasos
 
-Para levantar el proyecto en tu entorno local, necesitarás tener instalado [Node.js](https://nodejs.org/) (versión 18 o superior).
-
-### 1. Configuración del Entorno
-
-**¡MUY IMPORTANTE!** Las credenciales de Firebase no deben estar directamente en el código. Para configurar el proyecto de forma segura, sigue estos pasos:
-
-1.  Crea un archivo llamado `.env` en la raíz del proyecto.
-2.  Copia y pega el siguiente contenido en el archivo `.env`, reemplazando los valores con tus propias credenciales de Firebase:
-
-    ```
-    VITE_FIREBASE_API_KEY="AIzaSy..."
-    VITE_FIREBASE_AUTH_DOMAIN="tu-proyecto.firebaseapp.com"
-    VITE_FIREBASE_PROJECT_ID="tu-proyecto"
-    VITE_FIREBASE_STORAGE_BUCKET="tu-proyecto.appspot.com"
-    VITE_FIREBASE_MESSAGING_SENDER_ID="1234567890"
-    VITE_FIREBASE_APP_ID="1:1234567890:web:abcdef..."
-    ```
-
-    El archivo `.gitignore` ya está configurado para ignorar este archivo, por lo que tus credenciales no se subirán a GitHub.
+Para levantar el proyecto en tu entorno local, necesitarás tener instalado Node.js (versión 18 o superior). Asegúrate de que las credenciales de Firebase estén configuradas en `src/firebase.ts`.
 
 ### 2. Instalación de Dependencias
 

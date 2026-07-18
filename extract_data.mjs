@@ -1,7 +1,5 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, query, limit } from "firebase/firestore";
-import dotenv from 'dotenv';
-
 // Cargar variables de entorno desde el archivo .env
 dotenv.config();
 

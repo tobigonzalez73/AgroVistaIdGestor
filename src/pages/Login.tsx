@@ -57,50 +57,17 @@ export default function Login() {
                     )}
                 </div>
 
-                <h1 className="text-5xl font-light text-slate-800 dark:text-white mb-4">
-                    Comenzar Sesión
-                </h1>
-
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-10">
-                    Ingresa tus credenciales para acceder a la plataforma.
-                </p>
-
-                {error && (
-                    <div className="mb-6 bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-md flex items-start text-left">
-                        <AlertCircle className="w-5 h-5 text-red-500 mr-3 shrink-0 mt-0.5" />
-                        <p className="text-sm font-medium text-red-700 dark:text-red-400">{error}</p>
-                    </div>
-                )}
-
                 <div className="space-y-4 w-full max-w-sm mx-auto">
-                    <form className="space-y-4 text-left anima-fade-in" onSubmit={handleSubmit}>
+                    <form className="space-y-4 text-left" onSubmit={handleSubmit}>
                         <div>
                             <label className="block text-xs font-medium text-slate-500 mb-1 ml-1 uppercase tracking-wider">Email</label>
-                            <input
-                                type="email"
-                                required
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-md bg-transparent dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
-                                placeholder="email@ejemplo.com"
-                            />
+                            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-md bg-transparent dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all" placeholder="email@ejemplo.com" />
                         </div>
                         <div>
                             <label className="block text-xs font-medium text-slate-500 mb-1 ml-1 uppercase tracking-wider">Contraseña</label>
-                            <input
-                                type="password"
-                                required
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-md bg-transparent dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
-                                placeholder="••••••••"
-                            />
+                            <input type="password" required value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-md bg-transparent dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all" placeholder="••••••••" />
                         </div>
-                        <button
-                            type="submit"
-                            disabled={loading}
-                            className="w-full h-12 bg-slate-800 dark:bg-white text-white dark:text-slate-900 rounded-md font-medium hover:opacity-90 transition-opacity mt-2 flex items-center justify-center"
-                        >
+                        <button type="submit" disabled={loading} className="w-full h-12 bg-slate-800 dark:bg-white text-white dark:text-slate-900 rounded-md font-medium hover:opacity-90 transition-opacity mt-2 flex items-center justify-center">
                             {loading ? (
                                 <svg className="animate-spin h-5 w-5 text-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>

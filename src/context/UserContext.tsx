@@ -5,7 +5,8 @@ import {
     onAuthStateChanged,
     signInWithEmailAndPassword,
     getAuth,
-    createUserWithEmailAndPassword
+    createUserWithEmailAndPassword,
+    sendPasswordResetEmail
 } from 'firebase/auth';
 import { initializeApp, deleteApp } from 'firebase/app';
 import { auth, db } from '../firebase';
@@ -29,6 +30,7 @@ interface UserContextProps {
     hasPermission: (module: ModulePermission) => boolean;
     signInWithEmail: (email: string, pass: string) => Promise<void>;
     logout: () => Promise<void>;
+    sendPasswordReset: (email: string) => Promise<void>;
     isLoadingAuth: boolean;
 }
 
@@ -168,6 +170,14 @@ export function UserProvider({ children }: { children: ReactNode }) {
         }
     };
 
+    const sendPasswordReset = async (email: string) => {
+        try {
+            await sendPasswordResetEmail(auth, email);
+        } catch (error) {
+            console.error("Error sending password reset email", error);
+            throw error;
+        }
+    };
     const logout = async () => {
         try {
             await signOut(auth);
@@ -188,6 +198,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
             hasPermission,
             signInWithEmail,
             logout,
+            sendPasswordReset,
             isLoadingAuth
         }}>
             {children}
